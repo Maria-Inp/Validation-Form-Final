@@ -1,0 +1,29 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border: none;
+   outline: none;
+   list-style: none;
+   text-decoration: none;
+   font-family: 'Lotus';
+}
+
+button,
+a {
+   cursor: pointer;
+}
+
+::-webkit-scrollbar {
+   width: 4px;
+   padding: 20px;
+}
+
+::-webkit-scrollbar-track {
+   background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+   background: #aaa;
+   border-radius: 0.5rem;
+}
